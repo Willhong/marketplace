@@ -1,0 +1,33 @@
+{
+  "id": "project-usage-sort",
+  "displayName": "Project Usage Sort",
+  "description": "Puts the projects you work in most at the top of bb's project lists, re-ranked every hour from your own thread activity. Each thread counts toward its project, and its weight halves every 14 days, so this week's work outranks last quarter's. The order lands in bb's own project order, which the new-thread project picker uses, and in the built-in sidebar's project sections. Run bb project-usage-sort preview to see the ranking before anything moves; it runs on your bb server and calls no external service.",
+  "icon": "FolderSync",
+  "tags": [
+    "projects",
+    "project-order",
+    "sort",
+    "most-used",
+    "recent",
+    "project-picker",
+    "sidebar",
+    "reorder"
+  ],
+  "author": {
+    "name": "Willhong",
+    "github": "Willhong",
+    "url": "https://github.com/Willhong"
+  },
+  "category": "thread-management",
+  "screenshots": [
+    "./screenshots/project-usage-sort/project-picker.png",
+    "./screenshots/project-usage-sort/settings.png"
+  ],
+  "overview": "./overview/project-usage-sort.md",
+  "source": {
+    "git": {
+      "url": "https://github.com/Willhong/bb-plugin-project-usage-sort.git",
+      "range": "^0.1.0"
+    }
+  }
+}
